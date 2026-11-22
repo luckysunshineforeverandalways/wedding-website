@@ -1302,6 +1302,7 @@ Forever and Always ♡
 
 enterButton.addEventListener('click', function () {
   enterButton.style.setProperty('display', 'none', 'important');
+  document.getElementById('entranceSunflower')?.remove();
 document.getElementById('home')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   if (weddingMusic) {
     weddingMusic.play().catch(function () {
