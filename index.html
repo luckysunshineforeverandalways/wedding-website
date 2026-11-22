@@ -313,6 +313,25 @@ body:has(#enterMusicButton:not([style*="display: none"])) {
   text-wrap: pretty;
 }
 
+/* Entrance sunflower — separate from the corner stars */
+#entranceSunflower {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(75vw, 700px);
+  height: auto;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  #entranceSunflower {
+    bottom: 24px;
+    width: 85vw;
+  }
+}
+
 </style>
 </head>
 
@@ -1265,6 +1284,14 @@ Forever and Always ♡
 >
   
 </button>
+
+<!-- Sunflower decoration for entrance screen -->
+<img
+  id="entranceSunflower"
+  src="Sunflower.png"
+  alt=""
+  aria-hidden="true"
+>
 
 
 
