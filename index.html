@@ -157,6 +157,32 @@ content: "♡ Tap to begin with Lucky & Sunshine ♡";
   }
 }
 
+/* Delicate stars on the entrance frame */
+#enterMusicButton {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='%23b79a7a' opacity='.8'%3E%3Cpath d='M28 8 Q30 28 50 30 Q30 32 28 52 Q26 32 6 30 Q26 28 28 8Z'/%3E%3Cpath d='M55 5 Q56 15 66 16 Q56 17 55 27 Q54 17 44 16 Q54 15 55 5Z'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='%23b79a7a' opacity='.8'%3E%3Cpath d='M28 8 Q30 28 50 30 Q30 32 28 52 Q26 32 6 30 Q26 28 28 8Z'/%3E%3Cpath d='M55 5 Q56 15 66 16 Q56 17 55 27 Q54 17 44 16 Q54 15 55 5Z'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='%23b79a7a' opacity='.8'%3E%3Cpath d='M28 8 Q30 28 50 30 Q30 32 28 52 Q26 32 6 30 Q26 28 28 8Z'/%3E%3Cpath d='M55 5 Q56 15 66 16 Q56 17 55 27 Q54 17 44 16 Q54 15 55 5Z'/%3E%3C/g%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='%23b79a7a' opacity='.8'%3E%3Cpath d='M28 8 Q30 28 50 30 Q30 32 28 52 Q26 32 6 30 Q26 28 28 8Z'/%3E%3Cpath d='M55 5 Q56 15 66 16 Q56 17 55 27 Q54 17 44 16 Q54 15 55 5Z'/%3E%3C/g%3E%3C/svg%3E") !important;
+  background-position:
+    30px 30px,
+    right 30px top 30px,
+    left 30px bottom 30px,
+    right 30px bottom 30px !important;
+  background-repeat: no-repeat !important;
+  background-size: 44px 44px !important;
+}
+
+@media (max-width: 600px) {
+  #enterMusicButton {
+    background-position:
+      18px 18px,
+      right 18px top 18px,
+      left 18px bottom 18px,
+      right 18px bottom 18px !important;
+    background-size: 25px 25px !important;
+  }
+}
 
 @keyframes entranceGlow {
   0%, 100% { background: #f8f4ed; }
